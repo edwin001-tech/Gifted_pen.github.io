@@ -1,0 +1,320 @@
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+  color: green;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.comment{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(470%, 40%);
+    background-color: transparent;
+}
+.raha{
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(0%, 60%);
+    background-color: transparent;
+    width: 170px;
+
+}
+.try{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1060%,10%);
+    background-color: transparent;
+}
+.fry{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1065%,130%);
+    background-color: transparent;
+}
+.promise{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    color: mediumblue;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(193%,170%);
+    background-color: transparent;
+}
+.cry{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1065%,350%);
+    background-color: transparent;
+}
+.baba{
+    position: absolute;
+    font-family: serif;
+    color: black;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(197%,300%);
+    background-color: transparent;
+}
+.spy{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1065%,380%);
+    background-color: transparent;
+}
+.kwaru{
+  
+  background-color: darksalmon;
+}
+.nguvu{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    color: lawngreen;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(160%,770%);
+    background-color: transparent;
+}
+.pry{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1065%,500%);
+    background-color: transparent;
+}
+.moto{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    color: pink;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(388%,1000%);
+    background-color: transparent;
+}
+.sky{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1065%,650%);
+    background-color: transparent;
+}
+.sk{
+    position: absolute;
+    font-family: serif;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(1065%,765%);
+    background-color: transparent;
+}
+.wisdom{
+    position: absolute;
+    font-family: serif;
+    color: gold;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(433%,1300%);
+    background-color: transparent;
+}
+.way{
+  border-radius: 50px;
+  color: black;
+  font-size: 17;
+  font-weight: bolder;
+}
+.paul{
+   position: absolute;
+    font-family: serif;
+    color: violet;
+    font-size: 27;
+    font-weight: bolder;
+    border-radius: 9px;
+    transform: translate(433%,1530%);
+    background-color: transparent;
+}
+.zuchu{
+  border-radius: 60%;
+  background-color: gold;
+  transform: translate(0%, 40%);
+  text-align: center;
+  color: black;
+}
+
+.ricky{
+  float: left;
+  background-image: url(hotel-cafe-restaurant-mobilyalari.jpg);
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  animation-name:gifted;
+  background-image: url(hotel-cafe-restaurant-mobilyalari.jpg);
+  animation-duration:10s; 
+  animation-iteration-count: 400;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+    
+}
+@keyframes gifted{
+    from{background-image:url(hotel-cafe-restaurant-mobilyalari.jpg);}
+    to {background-image:url(patty.png);}
+}
+.strong{
+    font-weight: bold ;
+    font-family:serif;
+    font-size: 19;
+}
+.signout{
+  width: 120px;
+  height: 80px;
+  background:chartreuse;
+  color: #fff;
+  top: 50%;
+  left:50%;
+  position: absolute;
+  transform: translate(0%,750%);
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.fred{
+  width: 1330px;
+  height: 450px;
+  color: cyan;
+  background-color:grey;
+  text-align:absolute;
+  background-image: url(footer_logo.png);
+  padding:10px;
+  margin-top:7px;
+  font-size:18px;
+  transform: translate(50% 50%);
+  }
+.freddy{
+  background-color:grey;
+  padding:10px; 
+  background-image: url(leopard.jpg);
+  border-radius: 1%;
+  animation-name:pen;
+  background-image: url(leopard.jpg);
+  animation-duration:10s; 
+  animation-iteration-count: 400;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-timing-function: unset;
+    
+}
+@keyframes pen{
+    from{background-image:url(leopard.jpg);}
+    to {background-image:url(silicon.jpeg);}
+}
+
+
+ .kistian{
+  background-color: mediumaquamarine; 
+
+}
+ .tree1{
+  transform: translate(100% -40%);
+ }
+.navbar{
+  overflow: hidden;
+  background-color: darkkhaki;
+  text-decoration-color: white;
+  position: fixed;
+  top: 0px;
+  padding: 0px;
+  width: 98.9%;
+  text-align:center;
+  border-color: red;
+}
+.navbar a{
+ float: left;
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size:17; 
+}
+.navbar a:hover{
+  background-color: orangered;
+}
+.comment :hover{
+  color:black;
+}
+.left {
+  background-color: lightblue;
+  float: top-left;
+  width: 20%;
+  padding: 0px 0px;
+  margin-top: 20px;
+  transform: translate(-100% 650%);
+  height: 120%;
+}
+.right {
+  background-color: orangered;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+  .top{
+    padding: 10px;
+    transform: translate(-67% 60%);
+
+  }
+  .way{
+    width: 80%;
+    padding: 0;
+    transform: translate(-67% 60%);
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right, .fred, .way {
+    width: 100%;
+  }
+}
